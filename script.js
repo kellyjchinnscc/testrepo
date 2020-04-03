@@ -31,7 +31,7 @@ fetch(localFile)
 
     for(let i = 0; i < 10; i++) // outer loop creating rows and appending each row to the table
     {
-        let shipPiecesArray = ["0-0", "0-1", "0-2", "0-3", "0-4", "0-5", "0-6", "0-7", "0-8", "0-9", "3-1", "4-1", "5-1", "6-1", "7-1"]
+        let shipPiecesArray = ["0-0", "0-1", "0-2", "0-3", "0-4", "0-5", "0-6", "0-7", "0-8", "0-9", "3-1", "4-1", "5-1", "6-1", "7-1", "6-2", "7-2", "8-2"]
         let gameRows = document.createElement('tr'); // creating rows
         gameTable.appendChild(gameRows); // appending to the table
 
